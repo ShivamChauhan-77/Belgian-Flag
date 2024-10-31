@@ -1,0 +1,25 @@
+html,body{
+    margin:0;
+    padding:0;
+}
+.container{
+    height:200px;
+    width:calc(200px*3/2);
+    background-color: black;
+    margin:2em auto;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    /* display:flex; */
+}
+/* .stripe{
+    flex-grow:1;
+} */
+.black{
+    background-color: black;
+}
+.yellow{
+    background-color: yellow;
+}
+.red{
+    background-color: red;
+}
